@@ -1,0 +1,1 @@
+Please add the bower components that we had installed on the previous section along with the Colorgame.js, Colorgame.css, Colorgameskill.html and connectgame.js files, to connect the Color game Web application with the AWS IoT.
