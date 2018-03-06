@@ -2,22 +2,8 @@
   "languageModel": {
     "types": [
       {
-        "name": "Colors",
+        "name": "color",
         "values": [
-          {
-            "id": null,
-            "name": {
-              "value": "green",
-              "synonyms": []
-            }
-          },
-          {
-            "id": null,
-            "name": {
-              "value": "red",
-              "synonyms": []
-            }
-          },
           {
             "id": null,
             "name": {
@@ -29,6 +15,13 @@
             "id": null,
             "name": {
               "value": "black",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "red",
               "synonyms": []
             }
           },
@@ -63,6 +56,13 @@
           {
             "id": null,
             "name": {
+              "value": "green",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
               "value": "pink",
               "synonyms": []
             }
@@ -70,7 +70,7 @@
           {
             "id": null,
             "name": {
-              "value": "grey",
+              "value": "gray",
               "synonyms": []
             }
           }
@@ -93,26 +93,24 @@
       {
         "name": "ColorIntent",
         "samples": [
-          "It is {Color}",
-          "{Color}",
-          "It's {Color}"
+          "it's {color}"
         ],
         "slots": [
           {
-            "name": "Color",
-            "type": "Colors"
+            "name": "color",
+            "type": "color"
           }
         ]
       },
       {
         "name": "StartIntent",
         "samples": [
-          "Start the game",
-          "Start"
+          "start the game",
+          "start the color game"
         ],
         "slots": []
       }
     ],
-    "invocationName": "color game"
+    "invocationName": "color game skill"
   }
 }
