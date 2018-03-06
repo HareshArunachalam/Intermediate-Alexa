@@ -1,7 +1,7 @@
-const Region         = 'us-east-1';  
-const SubscribeTopic = '$aws/things/MyThing/shadow/update/accepted';
-const mqttEndpoint   = "a37ldu8h984ovd.iot.us-east-1.amazonaws.com";
-const IdentityPoolId = 'us-east-1:464a240c-2975-4c6a-8abe-7eba1db662e9';
+const Region         = 'us-east-1';  //Enter your AWS region here
+const SubscribeTopic = '$aws/things/YourThingName/shadow/update/accepted'; //Replace the subscribe topic according to your thing's Name
+const mqttEndpoint   = " "; //Enter your AWS IoT REST API endpoint here
+const IdentityPoolId = ' '; //Enter your Amazon Cognito's Identity Pool ID here
 
 AWS.config.region = Region;
 AWS.config.credentials = new AWS.CognitoIdentityCredentials({
