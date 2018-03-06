@@ -49,19 +49,20 @@
         "samples": []
       },
       {
-        "name": "CarIntent",
+        "name": "DirectionIntent",
         "samples": [
-          "Move {Direction}",
-          "turn {Direction}"
+          "move {direction}",
+          "go {direction}",
+          "turn {direction}"
         ],
         "slots": [
           {
-            "name": "Direction",
+            "name": "direction",
             "type": "directions"
           }
         ]
       }
     ],
-    "invocationName": "car"
+    "invocationName": "raspberry car"
   }
 }
