@@ -33,7 +33,7 @@ rootCAPath = "/home/pi/certificates/rootCA.pem"
 certificatePath = "/home/pi/certificates/certificate.pem.crt"
 privateKeyPath = "/home/pi/certificates/private.pem.key"
 clientId = "RPI3"
-topic = "$aws/things/RaspberryPi/shadow/update/accepted"
+topic = "$aws/things/YourThingName/shadow/update/accepted" #Enter your thing's name
 
 myAWSIoTMQTTClient = None
 myAWSIoTMQTTClient = AWSIoTMQTTClient(clientId)
