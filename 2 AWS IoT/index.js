@@ -34,9 +34,9 @@ var handlers = {
 
 function updateShadow(UserData, EmitEvent) {
     var AWS = require('aws-sdk');
-    AWS.config.region = "us-east-1";
+    AWS.config.region = "us-east-1"; //Enter your AWS Region
     var ParamsUpdate = {
-        "thingName" : "MyThing",
+        "thingName" : " ", //Enter your thing's Name
         "payload" : JSON.stringify(
             { "state":
                 { "desired": UserData            
@@ -44,7 +44,7 @@ function updateShadow(UserData, EmitEvent) {
             }
         )
     };
-    var iotData = new AWS.IotData({endpoint: "a37ldu8h984ovd.iot.us-east-1.amazonaws.com"});
+    var iotData = new AWS.IotData({endpoint: " "}); //Enter your AWS IoT REST API Endpoint here
     iotData.updateThingShadow(ParamsUpdate, function(err, data)  {
         if (err){
             console.log(err);
