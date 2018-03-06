@@ -1,0 +1,27 @@
+{
+  "languageModel": {
+    "intents": [
+      {
+        "name": "AMAZON.CancelIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.HelpIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.StopIntent",
+        "samples": []
+      },
+      {
+        "name": "HelloIntent",
+        "samples": [
+          "Greet my web app thing",
+          "Greet my thing"
+        ],
+        "slots": []
+      }
+    ],
+    "invocationName": "thing skill"
+  }
+}

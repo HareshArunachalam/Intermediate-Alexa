@@ -1,0 +1,40 @@
+{
+  "languageModel": {
+    "intents": [
+      {
+        "name": "AMAZON.CancelIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.HelpIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.NoIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.StopIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.YesIntent",
+        "samples": []
+      },
+      {
+        "name": "EventIntent",
+        "samples": [
+          "What are the events that occurred on {Date} ",
+          "What happened on {Date}"
+        ],
+        "slots": [
+          {
+            "name": "Date",
+            "type": "AMAZON.DATE"
+          }
+        ]
+      }
+    ],
+    "invocationName": "date skill"
+  }
+}

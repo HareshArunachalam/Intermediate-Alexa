@@ -1,0 +1,67 @@
+{
+  "languageModel": {
+    "types": [
+      {
+        "name": "directions",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "forward",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "backward",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "right",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "left",
+              "synonyms": []
+            }
+          }
+        ]
+      }
+    ],
+    "intents": [
+      {
+        "name": "AMAZON.CancelIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.HelpIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.StopIntent",
+        "samples": []
+      },
+      {
+        "name": "CarIntent",
+        "samples": [
+          "Move {Direction}",
+          "turn {Direction}"
+        ],
+        "slots": [
+          {
+            "name": "Direction",
+            "type": "directions"
+          }
+        ]
+      }
+    ],
+    "invocationName": "car"
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "languageModel": {
+    "types": [
+      {
+        "name": "Colors",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "green",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "red",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "yellow",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "black",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "blue",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "orange",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "brown",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "purple",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "pink",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "grey",
+              "synonyms": []
+            }
+          }
+        ]
+      }
+    ],
+    "intents": [
+      {
+        "name": "AMAZON.CancelIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.HelpIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.StopIntent",
+        "samples": []
+      },
+      {
+        "name": "ColorIntent",
+        "samples": [
+          "It is {Color}",
+          "{Color}",
+          "It's {Color}"
+        ],
+        "slots": [
+          {
+            "name": "Color",
+            "type": "Colors"
+          }
+        ]
+      },
+      {
+        "name": "StartIntent",
+        "samples": [
+          "Start the game",
+          "Start"
+        ],
+        "slots": []
+      }
+    ],
+    "invocationName": "color game"
+  }
+}

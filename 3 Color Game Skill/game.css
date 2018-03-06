@@ -1,0 +1,16 @@
+#tableId {
+    font-size: 30px;
+    position: fixed;
+    top: 40px;
+    left: 0px;
+}
+#color{
+	position: fixed;
+    top: 0px;
+    left: 0px;
+}
+#myCanvas {
+    position: fixed;
+    top: 100px;
+    left: 100px;
+}
