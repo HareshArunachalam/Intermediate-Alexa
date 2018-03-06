@@ -6,7 +6,7 @@ var months = ["January","February","March","April","May","June","July","August",
 
 exports.handler = function (event, context) {
     const alexa = Alexa.handler(event, context);
-    alexa.APP_ID = "amzn1.ask.skill.af944269-ac4e-4b34-b254-86e4b6a672ee";
+    alexa.APP_ID = ""; //Enter your skill ID here
     alexa.registerHandlers(handlers);
     initialize(event,function(){
         alexa.execute();
